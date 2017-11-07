@@ -1,9 +1,0 @@
-﻿{
-  "Name": "DougMod",
-  "Author": "Doug'n'Dodles",
-  "Version": "1.0",
-  "Description": "Makes your happy dougies happier dougies",
-  "UniqueID": "dnd.sdv.happy.dougies",
-  "EntryDll": "DougMod.dll",
-  "UpdateKeys": []
-}

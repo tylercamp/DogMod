@@ -7,8 +7,8 @@
     <ProjectGuid>{123527E9-5503-451C-A398-63B95C63DF9E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DougMod</RootNamespace>
-    <AssemblyName>DougMod</AssemblyName>
+    <RootNamespace>StardewValley.Mods.DogMod</RootNamespace>
+    <AssemblyName>DogMod</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModRoot.cs" />
+    <Compile Include="ModDriver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

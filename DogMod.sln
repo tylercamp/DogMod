@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DougMod", "DougMod\DougMod.csproj", "{123527E9-5503-451C-A398-63B95C63DF9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogMod", "DogMod\DogMod.csproj", "{123527E9-5503-451C-A398-63B95C63DF9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEFA8EA6-FF3F-4FC9-9AF0-C34C94A6CA05}
 	EndGlobalSection
 EndGlobal

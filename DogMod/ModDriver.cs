@@ -11,11 +11,11 @@ using System.Text;
 using System.Threading.Tasks;
 using xTile.Dimensions;
 
-namespace DougMod
+namespace StardewValley.Mods.DogMod
 {
-    class ModRoot : Mod
+    class ModDriver : Mod
     {
-        Dog happiestDougie;
+        Dog happiestDoggo;
 
         public override void Entry(IModHelper helper)
         {
@@ -27,13 +27,13 @@ namespace DougMod
             if (!Game1.hasLoadedGame)
                 return;
 
-            if (happiestDougie == null)
+            if (happiestDoggo == null)
             {
                 var npcs = Game1.currentLocation.getCharacters();
-                var dougie = npcs.FirstOrDefault(npc => npc is Dog);
+                var doggo = npcs.FirstOrDefault(npc => npc is Dog);
 
-                if (dougie != null)
-                    happiestDougie = dougie as Dog;
+                if (doggo != null)
+                    happiestDoggo = doggo as Dog;
             }
         }
     }

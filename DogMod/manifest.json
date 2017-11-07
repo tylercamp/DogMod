@@ -1,0 +1,9 @@
+﻿{
+  "Name": "Dog-Mod",
+  "Author": "Emily Saliba, Tyler Camp",
+  "Version": "1.0",
+  "Description": "Adds to the dog's gameplay",
+  "UniqueID": "eat.sdv.",
+  "EntryDll": "DogMod.dll",
+  "UpdateKeys": []
+}
